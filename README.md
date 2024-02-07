@@ -1,0 +1,1 @@
+JavaResultPortal integrates HTML, Java Servlets, and MySQL to create a secure and user-friendly Student Results Management system. Students can effortlessly create accounts, securely log in, and instantly access personalized academic results. Prioritizing efficiency and security, the system ensures seamless management and retrieval of academic records.
