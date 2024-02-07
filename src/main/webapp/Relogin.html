@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Login Form</title>
+	<style>
+		body {
+			margin: 20px;
+			background-color: pink;
+		}
+
+		.frame {
+			border: 5px solid black;
+			margin-top: 50px;
+			/* Adding margin to the form */
+			width: 800px;
+			padding: 25px;
+			box-sizing: border-box;
+			background-color: lightblue;
+		}
+
+		h2 {
+			color: blue;
+			text-shadow: 2px 2px 5px red;
+		}
+
+		a.create {
+			background-color: red;
+			color: white;
+			padding: 14px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		a.home:link,
+		a.home:visited {
+			background-color: brown;
+			color: white;
+			padding: 15px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		a.home:hover,
+		a.home:active {
+			background-color: green;
+		}
+
+		a.create:hover,
+		a.create:active {
+			background-color: blueviolet;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="Logindb" method="post">
+		<center>
+			<h2>INVALID USERNAME OR PASSWORD......Login again</h2>
+			<div class="frame">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<center><input type="submit" value="Login"></center>
+			</div>
+			<a class="create" href="Creating.html">CREATE ACCOUNT</a>
+		</center>
+	</form>
+</body>
+
+</html>

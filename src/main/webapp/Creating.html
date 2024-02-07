@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>CREATE ACCOUNT</title>
+	<style>
+		.note {
+			text-align: center;
+			border: 5px solid black;
+			margin-top: 50px;
+			width: 700px;
+			padding: 25px;
+			box-sizing: border-box;
+			background-color: lightblue;
+		}
+
+		body {
+			background-color: yellow;
+		}
+
+		h1 {
+			text-align: center;
+			background-color: blue;
+			color: white;
+			padding: 14px 25px;
+		}
+
+		a:link,
+		a:visited {
+			background-color: brown;
+			color: white;
+			padding: 15px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		a:hover,
+		a:active {
+			background-color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="DBconnect" method="post">
+		<a href="Loginwithdb.html">LOGIN</a>
+		<h1>Create Account</h1>
+		<center>
+			<div class="note">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required><br><br>
+
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required><br><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br><br>
+
+				<label for="phone">Phone Number:</label>
+				<input type="tel" id="phone" name="phone" required><br><br>
+
+				<label for="state">State:</label>
+				<select id="state" name="country">
+					<option value="tamil nadu" selected>TAMIL NADU</option>
+					<option>KERALA</option>
+					<option>ANDHRA PRADESH</option>
+					<option>TELANGANA</option>
+					<option>KARNATAKA</option>
+				</select><br><br>
+				<input type="submit" value="Create Account">
+			</div>
+		</center>
+
+		<body>
+
+		</body>
+
+</html>
